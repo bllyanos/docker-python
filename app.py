@@ -2,13 +2,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-users = [
-    {
-        "name": "Billy Editiano",
-        "age": 21
-    }
-]
-
 
 @app.route('/')
 def list_users():
